@@ -1,11 +1,11 @@
 local player = game.Players. LocalPlayer
 
 
-local banDuration = 1337 
-local reason = "Cheating | ID 1337"
+local banDuration = n/a 
+local reason = "Cheating | ID n/a"
 
-local message = string.format("You are monkey: \nYou are banned for [%d hours]\nReason: %s\nFuture bans will be PERMANENT. Do not break the rules.",
-banDuration,
+local message = string.format("You were kicked: \nYou are banned for [%d hours]\nReason: %s\n.",
+banDuration,  
 reason
 )
 player: Kick(message)
